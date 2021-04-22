@@ -200,6 +200,11 @@ table td:first-child {
     padding-left:10px;
 }
 
+.description tr:nth-child(3) td{
+    font-style: italic;
+    font-weight: bold;
+}
+
 .description {
     border-radius : 10px;
     margin-left : 20px;
