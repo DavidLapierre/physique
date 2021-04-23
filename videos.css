@@ -236,9 +236,9 @@ section.grise2 div.separateur {
 
 section.grise2 .fin {
     width : 60%;
-    margin : 30px auto;
+    margin : 10px auto;
     text-align: center;
-    padding-top : 160px;
+    padding-top : 100px;
 }
 
 section.grise2 .fin p {
@@ -422,7 +422,7 @@ section.grise2 .fin p {
 
     /* SECTION GRISE 1 */
     section.grise {
-        height : 600px;
+        height : 750px;
     }
     
     section.grise div.separateur {
@@ -525,7 +525,7 @@ table td:first-child {
 /* SECTION MÉTHODOLOGIE (FIN) */
 
 .grise2 {
-    height : 280px;
+    height : 380px;
 }
 
 section.grise2 .fin {
