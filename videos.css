@@ -47,7 +47,7 @@ header h2 {
 section.grise {
     background: url(triangle2white.svg) no-repeat center  bottom/100%;
     background-color: var(--couleur2);
-    height : 300px;
+    height : 410px;
 }
 
 section.grise div.separateur {
@@ -59,7 +59,7 @@ section.grise div.separateur {
 
 section.grise .intro {
     padding-top : 30px;
-    width : 60%;
+    width : 65%;
     margin : 0 auto;
     text-align: center;
     padding-top : 20px;
@@ -70,6 +70,7 @@ section.grise .intro p {
     text-align: justify;
     margin-left : auto;
     margin-right: auto;
+    line-height: 1.8;
 }
 
 /* SECTION VIDÉOS */
@@ -246,6 +247,7 @@ section.grise2 .fin p {
     margin-top : 15px;
     margin-left : auto;
     margin-right: auto;
+    line-height: 1.8;
 }
 
 /* RESPONSIVE DESIGN */
@@ -274,7 +276,7 @@ section.grise2 .fin p {
 
     /* SECTION GRISE 1 */
     section.grise {
-        height : 600px;
+        height : 900px;
     }
     
     section.grise div.separateur {
@@ -389,6 +391,7 @@ section.grise2 .fin {
 
 section.grise2 .fin p {
     font-size : 2.0em;
+    line-height: 1.8;
 }
 
 
@@ -419,7 +422,7 @@ section.grise2 .fin p {
 
     /* SECTION GRISE 1 */
     section.grise {
-        height : 500px;
+        height : 600px;
     }
     
     section.grise div.separateur {
@@ -528,7 +531,8 @@ table td:first-child {
 section.grise2 .fin {
     padding : 20px 10px;
     width : 92%;
-    /* padding-top : 100px; */
+    padding-top : 70px;
+    margin-top: 20px;
 
 }
 
