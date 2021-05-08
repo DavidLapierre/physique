@@ -49,6 +49,8 @@ nav li { list-style-type: none; font-size: 1.5em; text-align: center;
 
 nav a {text-decoration: none; color : white;}
 
+i.fa-arrow-alt-circle-right {display: none;}
+
 header h1, header h2 {
     text-align: center;
     text-shadow: 0 0 5px black;
