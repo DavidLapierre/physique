@@ -20,12 +20,13 @@ header {
 }
 
 div.bandeau {
+    overflow: hidden;
     text-align: center;
     margin-right: 0;
     margin-left: auto;
     width: 400px;
-    background-color: black;
-    border : 5px solid red;
+    background-color: BLACK;
+    border : 5px solid white;
     transform-origin: 50% 50%;
     transform: rotate(45deg) translate(80px,-40px);
     box-shadow: 0 10px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -42,7 +43,9 @@ nav ul {
     /* margin-left : 80%; margin-right : 10px; margin-top: 0; */
     display: inline-block;}
 
-nav li { list-style-type: none; font-size: 1.5em; text-align: center;}
+nav li { list-style-type: none; font-size: 1.5em; text-align: center;
+            font-family: 'Cabin Sketch', cursive;
+          }
 
 nav a {text-decoration: none; color : white;}
 
@@ -301,6 +304,23 @@ section.grise2 .fin p {
         padding : 0px 10px 30px 10px;
     }
 
+    nav li {font-size: 1em;}
+
+    nav ul {margin : 0 5px; padding : 8px 0;}
+
+    div.bandeau {
+        width: 30%;
+        margin-right: 40px;
+        padding : 0 0;
+        background-color: BLACK;
+        border : 2px solid white;
+        transform-origin: 0 0;
+        transform: none;
+    }
+
+    i.fa-arrow-alt-circle-right {display: inline;}
+    i.fa-flask {display: none;}
+
     /* SECTION GRISE 1 */
     section.grise {
         height : 900px;
@@ -446,6 +466,24 @@ section.grise2 .fin p {
         margin-right: 10px;
         padding : 0px 10px 30px 10px;
     }
+
+    nav li {font-size: 1em;}
+
+    nav ul {margin : 0 5px; padding : 8px 0;}
+
+    div.bandeau {
+        width: 30%;
+        min-width: 126px;
+        margin-right: 40px;
+        padding : 0 0;
+        background-color: BLACK;
+        border : 2px solid white;
+        transform-origin: 0 0;
+        transform: none;
+    }
+
+    i.fa-arrow-alt-circle-right {display: inline;}
+    i.fa-flask {display: none;}
 
     /* SECTION GRISE 1 */
     section.grise {
