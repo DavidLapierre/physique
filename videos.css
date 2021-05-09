@@ -312,8 +312,10 @@ section.grise2 .fin p {
 
     div.bandeau {
         width: 40%;
-        margin-right: 40px;
-        padding : 0 0;
+        padding : 10px 10px auto auto;
+        /* margin-right: 40px; */
+        min-width: 176px;
+        /* padding : 0 0; */
         background-color: BLACK;
         border : 2px solid white;
         transform-origin: 0 0;
@@ -475,9 +477,10 @@ section.grise2 .fin p {
 
     div.bandeau {
         width: 40%;
-        min-width: 136px;
-        margin-right: 40px;
-        padding : 0 0;
+        min-width: 176px;
+        padding : 10px 10px auto auto;
+        /* margin-right: 40px; */
+        /* padding : 0 0; */
         background-color: BLACK;
         border : 2px solid white;
         transform-origin: 0 0;
