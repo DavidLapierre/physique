@@ -311,7 +311,7 @@ section.grise2 .fin p {
     nav ul {margin : 0 5px; padding : 8px 0;}
 
     div.bandeau {
-        width: 30%;
+        width: 40%;
         margin-right: 40px;
         padding : 0 0;
         background-color: BLACK;
@@ -474,8 +474,8 @@ section.grise2 .fin p {
     nav ul {margin : 0 5px; padding : 8px 0;}
 
     div.bandeau {
-        width: 30%;
-        min-width: 126px;
+        width: 40%;
+        min-width: 136px;
         margin-right: 40px;
         padding : 0 0;
         background-color: BLACK;
